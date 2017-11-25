@@ -12,14 +12,15 @@
 <link href="css/ie6.css" rel="stylesheet" type="text/css" />
 <![endif]-->
 <script type="text/javascript" src="js/pdfobject.js"></script>
+<script type="text/javascript">
+      window.onload = function (){
+        var myPDF = new PDFObject({ url: "CV.pdf" }).embed("pdf");
+      };
+</script>
 </head>
 <body>
 <!-- Begin Wrapper -->
-<script type="text/javascript">
-      window.onload = function (){
-        var myPDF = new PDFObject({ url: "CV.pdf" }).embed();
-      };
-</script>
+<div id="pdf"></div>
 <!-- End Wrapper -->
 </body>
 </html>
