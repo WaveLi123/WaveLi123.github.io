@@ -12,21 +12,22 @@
 <script type="text/javascript" src="js/pdfobject.js"></script>
 <script type="text/javascript">
       window.onload = function (){
+        var options = {        
+          pdfOpenParams: {
+            pagemode: "thumbs",
+            navpanes: 0,
+            toolbar: 0,
+            statusbar: 0,
+            view: "FitV"
+          }
+        };
         var myPDF = PDFObject.embed("CV.pdf", "pdf", options);
       };
 </script>
 </head>
 <body>
 <!-- Begin Wrapper -->
-var options = {
-    pdfOpenParams: {
-      pagemode: "thumbs",
-      navpanes: 0,
-      toolbar: 0,
-      statusbar: 0,
-      view: "FitV"
-    }
-  };
+
 <div id="pdf"></div>
 <!-- End Wrapper -->
 </body>
