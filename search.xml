@@ -137,29 +137,40 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Gated-Attention Readers for Text Comprehension]]></title>
-      <url>http://yoursite.com/2017/06/17/Gated-Attention%20Readers%20for%20Text%20Comprehension/</url>
+      <title><![CDATA[Improved Representation Learning for Question Answer Matching]]></title>
+      <url>http://yoursite.com/2017/06/17/Improved%20Representation%20Learning%20for%20Question%20Answer%20Matching/</url>
       <content type="html"><![CDATA[<hr>
-<p>[TOC]</p>
-<h2 id="&#x4EFB;&#x52A1;"><a href="#&#x4EFB;&#x52A1;" class="headerlink" title="&#x4EFB;&#x52A1;"></a>&#x4EFB;&#x52A1;</h2><p>Close-Style Reading Comprehension&#xFF08;D-Q-A&#xFF09;</p>
+<h2 id="&#x4EFB;&#x52A1;"><a href="#&#x4EFB;&#x52A1;" class="headerlink" title="&#x4EFB;&#x52A1;"></a>&#x4EFB;&#x52A1;</h2><p>Q&#xFF0D;Long A&#xFF08;passage&#xFF0D;level question answer&#xFF09;<br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.09.23.png" alt="QA"></p>
 <h2 id="&#x8981;&#x89E3;&#x51B3;&#x7684;&#x95EE;&#x9898;"><a href="#&#x8981;&#x89E3;&#x51B3;&#x7684;&#x95EE;&#x9898;" class="headerlink" title="&#x8981;&#x89E3;&#x51B3;&#x7684;&#x95EE;&#x9898;"></a>&#x8981;&#x89E3;&#x51B3;&#x7684;&#x95EE;&#x9898;</h2><blockquote>
-<p> An attention mechanism  in LSTM(GRU):</p>
+<ol>
+<li>CNN: &#x5C40;&#x90E8;&#x5173;&#x7CFB;(local interaction)&#xFF0C;LSTM&#xFF1A;&#x6574;&#x4F53;&#x5173;&#x7CFB;(long range information)&#xFF0C;how to combine? </li>
+<li>An attention mechanism  in LSTM</li>
+</ol>
 </blockquote>
-<h2 id="&#x63D0;&#x51FA;&#x7684;&#x6A21;&#x578B;"><a href="#&#x63D0;&#x51FA;&#x7684;&#x6A21;&#x578B;" class="headerlink" title="&#x63D0;&#x51FA;&#x7684;&#x6A21;&#x578B;"></a>&#x63D0;&#x51FA;&#x7684;&#x6A21;&#x578B;</h2><ul>
-<li>Gated-Attention-Model&#xFF1A;<br><img src="/2017/06/17/Gated-Attention Readers for Text Comprehension/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-10-13 &#x4E0B;&#x5348;10.31.18.png" alt="Model"></li>
+<h2 id="&#x63D0;&#x51FA;&#x7684;&#x65B9;&#x6CD5;"><a href="#&#x63D0;&#x51FA;&#x7684;&#x65B9;&#x6CD5;" class="headerlink" title="&#x63D0;&#x51FA;&#x7684;&#x65B9;&#x6CD5;"></a>&#x63D0;&#x51FA;&#x7684;&#x65B9;&#x6CD5;</h2><ul>
+<li><p>QA-LSTM&#xFF1A;<br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.27.21.png" alt="QA-LSTM"><br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/lstm-intro.png" alt="LSTM_Cell"></p>
+</li>
+<li><p>Convolutional-pooling LSTM:<br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.27.32.png" alt="Convolutional-pooling LSTM"></p>
+</li>
+<li><p>Convolution-based LSTM:<br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.27.42.png" alt="Convolution-based LSTM"></p>
+</li>
+<li><p>Attentive LSTM:<br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.27.48.png" alt="Attentive LSTM"></p>
+</li>
 </ul>
 <h2 id="&#x5B9E;&#x9A8C;&#x90E8;&#x5206;"><a href="#&#x5B9E;&#x9A8C;&#x90E8;&#x5206;" class="headerlink" title="&#x5B9E;&#x9A8C;&#x90E8;&#x5206;"></a>&#x5B9E;&#x9A8C;&#x90E8;&#x5206;</h2><ul>
-<li><strong>&#x5B9E;&#x9A8C;&#x6570;&#x636E;&#xFF1A;</strong><br><img src="/2017/06/17/Gated-Attention Readers for Text Comprehension/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-10-13 &#x4E0B;&#x5348;10.32.16.png" alt="Data"></li>
-</ul>
-<ul>
-<li><strong>&#x5B9E;&#x9A8C;&#x7ED3;&#x679C;&#xFF1A;</strong><br><img src="/2017/06/17/Gated-Attention Readers for Text Comprehension/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-10-13 &#x4E0B;&#x5348;10.33.30.png" alt="Alt text"></li>
+<li><strong>&#x5B9E;&#x9A8C;&#x6570;&#x636E;&#xFF1A;</strong>InsuranceQA + TREC</li>
+<li>InsuranceQA - <img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.28.47.png" alt="InsuranceQA"></li>
+<li><p>TREC - 1162 training, 65 development and 68 test questions</p>
+</li>
+<li><p><strong>&#x5B9E;&#x9A8C;&#x7ED3;&#x679C;&#xFF1A;</strong><br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.28.56.png" alt="InsuranceQA"><br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.29.05.png" alt="TREC"></p>
+</li>
 </ul>
 <h2 id="&#x53EF;&#x501F;&#x9274;&#x7684;&#x5730;&#x65B9;"><a href="#&#x53EF;&#x501F;&#x9274;&#x7684;&#x5730;&#x65B9;" class="headerlink" title="&#x53EF;&#x501F;&#x9274;&#x7684;&#x5730;&#x65B9;"></a>&#x53EF;&#x501F;&#x9274;&#x7684;&#x5730;&#x65B9;</h2><ul>
-<li>1.&#x5B9E;&#x9A8C;&#x7684;&#x5168;&#x9762;&#x6027;</li>
-<li>2.Gated-attention</li>
+<li>1.&#x4EFB;&#x52A1;&#x548C;&#x65B9;&#x6CD5;&#x7684;&#x5951;&#x5408;&#x5EA6;</li>
+<li>2.&#x5B9E;&#x9A8C;&#x7684;&#x5168;&#x9762;&#x6027;</li>
 </ul>
 <h2 id="&#x53CD;&#x9988;&#x4E0E;&#x5EFA;&#x8BAE;"><a href="#&#x53CD;&#x9988;&#x4E0E;&#x5EFA;&#x8BAE;" class="headerlink" title="&#x53CD;&#x9988;&#x4E0E;&#x5EFA;&#x8BAE;"></a>&#x53CD;&#x9988;&#x4E0E;&#x5EFA;&#x8BAE;</h2><ul>
-<li>&#x5FAE;&#x535A;&#xFF1A;<a href="http://weibo.com/u/3165962554/home?wvr=5&amp;lf=reg" target="_blank" rel="noopener">@&#x4F1F;&#x5EB7;&#x9752;&#x5E74;</a>&#xFF0C;<a href="https://waveli123.github.io/" target="_blank" rel="noopener">@github</a></li>
+<li>&#x5FAE;&#x535A;&#xFF1A;<a href="http://weibo.com/u/3165962554/home?wvr=5&amp;lf=reg" target="_blank" rel="noopener">@&#x4F1F;&#x5EB7;&#x9752;&#x5E74;</a>&#xFF0C;<a href="http://weibo.com/ggock" title="&#x5F00;&#x53D1;&#x8005;&#x4E2A;&#x4EBA;&#x8D26;&#x53F7;" target="_blank" rel="noopener">@github</a></li>
 <li>&#x90AE;&#x7BB1;&#xFF1A;<a href="mailto:wavejkd@pku.edu.cn">wavejkd@pku.edu.cn</a></li>
 </ul>
 ]]></content>
@@ -257,40 +268,29 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Improved Representation Learning for Question Answer Matching]]></title>
-      <url>http://yoursite.com/2017/06/17/Improved%20Representation%20Learning%20for%20Question%20Answer%20Matching/</url>
+      <title><![CDATA[Gated-Attention Readers for Text Comprehension]]></title>
+      <url>http://yoursite.com/2017/06/17/Gated-Attention%20Readers%20for%20Text%20Comprehension/</url>
       <content type="html"><![CDATA[<hr>
-<h2 id="&#x4EFB;&#x52A1;"><a href="#&#x4EFB;&#x52A1;" class="headerlink" title="&#x4EFB;&#x52A1;"></a>&#x4EFB;&#x52A1;</h2><p>Q&#xFF0D;Long A&#xFF08;passage&#xFF0D;level question answer&#xFF09;<br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.09.23.png" alt="QA"></p>
+<p>[TOC]</p>
+<h2 id="&#x4EFB;&#x52A1;"><a href="#&#x4EFB;&#x52A1;" class="headerlink" title="&#x4EFB;&#x52A1;"></a>&#x4EFB;&#x52A1;</h2><p>Close-Style Reading Comprehension&#xFF08;D-Q-A&#xFF09;</p>
 <h2 id="&#x8981;&#x89E3;&#x51B3;&#x7684;&#x95EE;&#x9898;"><a href="#&#x8981;&#x89E3;&#x51B3;&#x7684;&#x95EE;&#x9898;" class="headerlink" title="&#x8981;&#x89E3;&#x51B3;&#x7684;&#x95EE;&#x9898;"></a>&#x8981;&#x89E3;&#x51B3;&#x7684;&#x95EE;&#x9898;</h2><blockquote>
-<ol>
-<li>CNN: &#x5C40;&#x90E8;&#x5173;&#x7CFB;(local interaction)&#xFF0C;LSTM&#xFF1A;&#x6574;&#x4F53;&#x5173;&#x7CFB;(long range information)&#xFF0C;how to combine? </li>
-<li>An attention mechanism  in LSTM</li>
-</ol>
+<p> An attention mechanism  in LSTM(GRU):</p>
 </blockquote>
-<h2 id="&#x63D0;&#x51FA;&#x7684;&#x65B9;&#x6CD5;"><a href="#&#x63D0;&#x51FA;&#x7684;&#x65B9;&#x6CD5;" class="headerlink" title="&#x63D0;&#x51FA;&#x7684;&#x65B9;&#x6CD5;"></a>&#x63D0;&#x51FA;&#x7684;&#x65B9;&#x6CD5;</h2><ul>
-<li><p>QA-LSTM&#xFF1A;<br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.27.21.png" alt="QA-LSTM"><br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/lstm-intro.png" alt="LSTM_Cell"></p>
-</li>
-<li><p>Convolutional-pooling LSTM:<br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.27.32.png" alt="Convolutional-pooling LSTM"></p>
-</li>
-<li><p>Convolution-based LSTM:<br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.27.42.png" alt="Convolution-based LSTM"></p>
-</li>
-<li><p>Attentive LSTM:<br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.27.48.png" alt="Attentive LSTM"></p>
-</li>
+<h2 id="&#x63D0;&#x51FA;&#x7684;&#x6A21;&#x578B;"><a href="#&#x63D0;&#x51FA;&#x7684;&#x6A21;&#x578B;" class="headerlink" title="&#x63D0;&#x51FA;&#x7684;&#x6A21;&#x578B;"></a>&#x63D0;&#x51FA;&#x7684;&#x6A21;&#x578B;</h2><ul>
+<li>Gated-Attention-Model&#xFF1A;<br><img src="/2017/06/17/Gated-Attention Readers for Text Comprehension/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-10-13 &#x4E0B;&#x5348;10.31.18.png" alt="Model"></li>
 </ul>
 <h2 id="&#x5B9E;&#x9A8C;&#x90E8;&#x5206;"><a href="#&#x5B9E;&#x9A8C;&#x90E8;&#x5206;" class="headerlink" title="&#x5B9E;&#x9A8C;&#x90E8;&#x5206;"></a>&#x5B9E;&#x9A8C;&#x90E8;&#x5206;</h2><ul>
-<li><strong>&#x5B9E;&#x9A8C;&#x6570;&#x636E;&#xFF1A;</strong>InsuranceQA + TREC</li>
-<li>InsuranceQA - <img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.28.47.png" alt="InsuranceQA"></li>
-<li><p>TREC - 1162 training, 65 development and 68 test questions</p>
-</li>
-<li><p><strong>&#x5B9E;&#x9A8C;&#x7ED3;&#x679C;&#xFF1A;</strong><br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.28.56.png" alt="InsuranceQA"><br><img src="/2017/06/17/Improved Representation Learning for Question Answer Matching/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-09-18 &#x4E0B;&#x5348;9.29.05.png" alt="TREC"></p>
-</li>
+<li><strong>&#x5B9E;&#x9A8C;&#x6570;&#x636E;&#xFF1A;</strong><br><img src="/2017/06/17/Gated-Attention Readers for Text Comprehension/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-10-13 &#x4E0B;&#x5348;10.32.16.png" alt="Data"></li>
+</ul>
+<ul>
+<li><strong>&#x5B9E;&#x9A8C;&#x7ED3;&#x679C;&#xFF1A;</strong><br><img src="/2017/06/17/Gated-Attention Readers for Text Comprehension/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2016-10-13 &#x4E0B;&#x5348;10.33.30.png" alt="Alt text"></li>
 </ul>
 <h2 id="&#x53EF;&#x501F;&#x9274;&#x7684;&#x5730;&#x65B9;"><a href="#&#x53EF;&#x501F;&#x9274;&#x7684;&#x5730;&#x65B9;" class="headerlink" title="&#x53EF;&#x501F;&#x9274;&#x7684;&#x5730;&#x65B9;"></a>&#x53EF;&#x501F;&#x9274;&#x7684;&#x5730;&#x65B9;</h2><ul>
-<li>1.&#x4EFB;&#x52A1;&#x548C;&#x65B9;&#x6CD5;&#x7684;&#x5951;&#x5408;&#x5EA6;</li>
-<li>2.&#x5B9E;&#x9A8C;&#x7684;&#x5168;&#x9762;&#x6027;</li>
+<li>1.&#x5B9E;&#x9A8C;&#x7684;&#x5168;&#x9762;&#x6027;</li>
+<li>2.Gated-attention</li>
 </ul>
 <h2 id="&#x53CD;&#x9988;&#x4E0E;&#x5EFA;&#x8BAE;"><a href="#&#x53CD;&#x9988;&#x4E0E;&#x5EFA;&#x8BAE;" class="headerlink" title="&#x53CD;&#x9988;&#x4E0E;&#x5EFA;&#x8BAE;"></a>&#x53CD;&#x9988;&#x4E0E;&#x5EFA;&#x8BAE;</h2><ul>
-<li>&#x5FAE;&#x535A;&#xFF1A;<a href="http://weibo.com/u/3165962554/home?wvr=5&amp;lf=reg" target="_blank" rel="noopener">@&#x4F1F;&#x5EB7;&#x9752;&#x5E74;</a>&#xFF0C;<a href="http://weibo.com/ggock" title="&#x5F00;&#x53D1;&#x8005;&#x4E2A;&#x4EBA;&#x8D26;&#x53F7;" target="_blank" rel="noopener">@github</a></li>
+<li>&#x5FAE;&#x535A;&#xFF1A;<a href="http://weibo.com/u/3165962554/home?wvr=5&amp;lf=reg" target="_blank" rel="noopener">@&#x4F1F;&#x5EB7;&#x9752;&#x5E74;</a>&#xFF0C;<a href="https://waveli123.github.io/" target="_blank" rel="noopener">@github</a></li>
 <li>&#x90AE;&#x7BB1;&#xFF1A;<a href="mailto:wavejkd@pku.edu.cn">wavejkd@pku.edu.cn</a></li>
 </ul>
 ]]></content>
