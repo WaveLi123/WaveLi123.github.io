@@ -5,13 +5,13 @@
     
     <entry>
       <title><![CDATA[WikiReading - Review of Literature]]></title>
-      <url>http://yoursite.com/2018/03/12/WikiReading%20-%20Review%20of%20Literature/WikiReading%20-%20Review%20of%20Literature/</url>
+      <url>http://yoursite.com/2018/03/12/WikiReading%20-%20Review%20of%20Literature/</url>
       <content type="html"><![CDATA[<hr>
 <h2 id="What-is-WikiReading"><a href="#What-is-WikiReading" class="headerlink" title="What is WikiReading"></a>What is WikiReading</h2><p><a href="">@ WIKIREADING- A Novel Large-scale Language Understanding Task over Wikipedia, ACL 2016</a></p>
 <blockquote>
 <p>new <strong>data</strong> from <strong>structured knowledge</strong> statements</p>
 </blockquote>
-<h3 id="Wikidata"><a href="#Wikidata" class="headerlink" title="Wikidata"></a>Wikidata</h3><p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-05 &#x4E0A;&#x5348;11.10.20.png" alt="Alt text"></p>
+<h3 id="Wikidata"><a href="#Wikidata" class="headerlink" title="Wikidata"></a>Wikidata</h3><p><img src="/2018/03/12/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-05 &#x4E0A;&#x5348;11.10.20.png" alt="Alt text"></p>
 <p>(item, property, value) -&gt; (document, question, answer)</p>
 <h3 id="Statistics"><a href="#Statistics" class="headerlink" title="Statistics"></a>Statistics</h3><ul>
 <li>all instances size : 18.58M</li>
@@ -24,24 +24,24 @@
 <li>short question</li>
 <li>structured knowledge</li>
 </ul>
-<h3 id="A-Real-Case"><a href="#A-Real-Case" class="headerlink" title="A Real Case"></a>A Real Case</h3><p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-05 &#x4E0A;&#x5348;11.24.18.png" alt="Alt text"></p>
-<h3 id="Baselines"><a href="#Baselines" class="headerlink" title="Baselines"></a>Baselines</h3><p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-05 &#x4E0B;&#x5348;5.05.42.png" alt="Alt text"></p>
+<h3 id="A-Real-Case"><a href="#A-Real-Case" class="headerlink" title="A Real Case"></a>A Real Case</h3><p><img src="/2018/03/12/WikiReading - Review of Literature/&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-05 &#x4E0A;&#x5348;11.24.18.png" alt="Alt text"></p>
+<h3 id="Baselines"><a href="#Baselines" class="headerlink" title="Baselines"></a>Baselines</h3><p><img src="/2018/03/12/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-05 &#x4E0B;&#x5348;5.05.42.png" alt="Alt text"></p>
 <h2 id="State-of-the-art-Methods"><a href="#State-of-the-art-Methods" class="headerlink" title="State-of-the-art Methods"></a>State-of-the-art Methods</h2><h3 id="Coarse-to-fine-Model"><a href="#Coarse-to-fine-Model" class="headerlink" title="Coarse-to-fine  Model"></a>Coarse-to-fine  Model</h3><p><a href="">@ Coarse-to-Fine Question Answering for Long Documents, ACL 2017</a><br><a href="">@ Hierarchical Question Answering for Long Documents, Arxiv 2016</a></p>
 <h4 id="Intuition"><a href="#Intuition" class="headerlink" title="Intuition"></a>Intuition</h4><blockquote>
 <p><strong>long documents</strong> and <strong>low speed</strong></p>
 </blockquote>
-<p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0A;&#x5348;11.07.52.png" alt="Alt text"></p>
+<p><img src="/2018/03/12/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0A;&#x5348;11.07.52.png" alt="Alt text"></p>
 <h4 id="Model"><a href="#Model" class="headerlink" title="Model"></a>Model</h4><h5 id="Sentence-Selection-Methods"><a href="#Sentence-Selection-Methods" class="headerlink" title="Sentence Selection Methods"></a>Sentence Selection Methods</h5><ul>
-<li><p>BoW Model<br><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0A;&#x5348;11.13.28.png" alt="Alt text"></p>
+<li><p>BoW Model<br><img src="/2018/03/12/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0A;&#x5348;11.13.28.png" alt="Alt text"></p>
 </li>
 <li><p>Chunked BoW Model</p>
 </li>
 <li>Convolutional Neural Network Model</li>
 </ul>
 <h5 id="Document-Representation"><a href="#Document-Representation" class="headerlink" title="Document Representation"></a>Document Representation</h5><ul>
-<li><p>Hard Attention<br><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0A;&#x5348;11.17.35.png" alt="Alt text"></p>
+<li><p>Hard Attention<br><img src="/2018/03/12/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0A;&#x5348;11.17.35.png" alt="Alt text"></p>
 </li>
-<li><p>Soft Attention<br><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0A;&#x5348;11.17.49.png" alt="Alt text"></p>
+<li><p>Soft Attention<br><img src="/2018/03/12/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0A;&#x5348;11.17.49.png" alt="Alt text"></p>
 </li>
 </ul>
 <h5 id="Learning-Methods"><a href="#Learning-Methods" class="headerlink" title="Learning Methods"></a>Learning Methods</h5><ul>
@@ -50,24 +50,24 @@
 </blockquote>
 </li>
 </ul>
-<p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0B;&#x5348;2.21.21.png" alt="Alt text"></p>
+<p><img src="/2018/03/12/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0B;&#x5348;2.21.21.png" alt="Alt text"></p>
 <ul>
-<li><p>Reinforcement Learning<br><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0B;&#x5348;2.29.38.png" alt="Alt text"></p>
+<li><p>Reinforcement Learning<br><img src="/2018/03/12/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0B;&#x5348;2.29.38.png" alt="Alt text"></p>
 </li>
 <li><p>Soft Attention Learning </p>
 </li>
 </ul>
-<h4 id="Result"><a href="#Result" class="headerlink" title="Result"></a>Result</h4><p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0B;&#x5348;2.33.01.png" alt="Alt text"></p>
+<h4 id="Result"><a href="#Result" class="headerlink" title="Result"></a>Result</h4><p><img src="/2018/03/12/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0B;&#x5348;2.33.01.png" alt="Alt text"></p>
 <h4 id="Discussion"><a href="#Discussion" class="headerlink" title="Discussion"></a>Discussion</h4><p>70%, 10%, 20% </p>
 <h3 id="Sliding-Window-Encoder-Attentive-Reader-SWEAR"><a href="#Sliding-Window-Encoder-Attentive-Reader-SWEAR" class="headerlink" title="Sliding-Window Encoder Attentive Reader (SWEAR)"></a>Sliding-Window Encoder Attentive Reader (SWEAR)</h3><p><a href="">@ Accurate Supervised and Semi-Supervised Machine Reading for Long Documents, EMNLP 2017</a></p>
 <h4 id="Intuition-1"><a href="#Intuition-1" class="headerlink" title="Intuition"></a>Intuition</h4><blockquote>
 <p>Long document, Chunk</p>
 </blockquote>
-<h4 id="Model-1"><a href="#Model-1" class="headerlink" title="Model"></a>Model</h4><p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-07 &#x4E0A;&#x5348;11.06.14.png" alt="Alt text"></p>
+<h4 id="Model-1"><a href="#Model-1" class="headerlink" title="Model"></a>Model</h4><p><img src="/2018/03/12/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-07 &#x4E0A;&#x5348;11.06.14.png" alt="Alt text"></p>
 <ul>
-<li>Attention Method<br><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-07 &#x4E0A;&#x5348;11.08.21.png" alt="Alt text"></li>
+<li>Attention Method<br><img src="/2018/03/12/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-07 &#x4E0A;&#x5348;11.08.21.png" alt="Alt text"></li>
 </ul>
-<h4 id="Result-1"><a href="#Result-1" class="headerlink" title="Result"></a>Result</h4><p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-07 &#x4E0A;&#x5348;11.08.53.png" alt="Alt text"><br><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-07 &#x4E0A;&#x5348;11.10.46.png" alt="Alt text"></p>
+<h4 id="Result-1"><a href="#Result-1" class="headerlink" title="Result"></a>Result</h4><p><img src="/2018/03/12/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-07 &#x4E0A;&#x5348;11.08.53.png" alt="Alt text"><br><img src="/2018/03/12/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-07 &#x4E0A;&#x5348;11.10.46.png" alt="Alt text"></p>
 <h2 id="Feedback-amp-Advice"><a href="#Feedback-amp-Advice" class="headerlink" title="Feedback&amp;Advice"></a>Feedback&amp;Advice</h2><ul>
 <li>weibo&#xFF1A;<a href="http://weibo.com/u/3165962554/home?wvr=5&amp;lf=reg" target="_blank" rel="noopener">@&#x4F1F;&#x5EB7;&#x9752;&#x5E74;</a>&#xFF0C;<a href="https://waveli123.github.io/" target="_blank" rel="noopener">@github</a></li>
 <li>mail&#xFF1A;<a href="mailto:wavejkd@pku.edu.cn">wavejkd@pku.edu.cn</a></li>
