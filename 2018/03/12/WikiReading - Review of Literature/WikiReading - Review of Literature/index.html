@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title> | 大道至简--博客记</title><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/4.2.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.0/grids-responsive-min.css"><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="/css/donate.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">大道至简--博客记</h1><a id="logo" href="/.">大道至简--博客记</a><p class="description">道&amp;术</p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/history/"><i class="fa fa-history"> 历史</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div id="layout" class="pure-g"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title"></h1><div class="post-meta">Mar 12, 2018<script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> Hits</span></span></div><a data-thread-key="2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/" href="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/#comments" class="ds-thread-count"></a><div class="post-content"><hr>
+<p>title: WikiReading - Review of Literature<br>tag: (Data and Task Share-20180305)[QA|DBQA]<br>toc: true<br>comments: true</p>
+<h2 id="categories-Paper-Share"><a href="#categories-Paper-Share" class="headerlink" title="categories: Paper Share"></a>categories: Paper Share</h2><h2 id="What-is-WikiReading"><a href="#What-is-WikiReading" class="headerlink" title="What is WikiReading"></a>What is WikiReading</h2><p><a href="">@ WIKIREADING- A Novel Large-scale Language Understanding Task over Wikipedia, ACL 2016</a></p>
+<blockquote>
+<p>new <strong>data</strong> from <strong>structured knowledge</strong> statements</p>
+</blockquote>
+<h3 id="Wikidata"><a href="#Wikidata" class="headerlink" title="Wikidata"></a>Wikidata</h3><p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-05 &#x4E0A;&#x5348;11.10.20.png" alt="Alt text"></p>
+<p>(item, property, value) -&gt; (document, question, answer)</p>
+<h3 id="Statistics"><a href="#Statistics" class="headerlink" title="Statistics"></a>Statistics</h3><ul>
+<li>all instances size : 18.58M</li>
+<li>train/val/test(85/10/5): 16.03M, 1.89M, 0.95M</li>
+<li>documents: 4.7M unique, 5.31 instances, 4, 879 ; 489.2, 203 words </li>
+<li>properties: 867 unique, 20-&gt;75%, 180-&gt;99%; Categorical and Relational</li>
+</ul>
+<h3 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h3><ul>
+<li>long document</li>
+<li>short question</li>
+<li>structured knowledge</li>
+</ul>
+<h3 id="A-Real-Case"><a href="#A-Real-Case" class="headerlink" title="A Real Case"></a>A Real Case</h3><p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-05 &#x4E0A;&#x5348;11.24.18.png" alt="Alt text"></p>
+<h3 id="Baselines"><a href="#Baselines" class="headerlink" title="Baselines"></a>Baselines</h3><p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-05 &#x4E0B;&#x5348;5.05.42.png" alt="Alt text"></p>
+<h2 id="State-of-the-art-Methods"><a href="#State-of-the-art-Methods" class="headerlink" title="State-of-the-art Methods"></a>State-of-the-art Methods</h2><h3 id="Coarse-to-fine-Model"><a href="#Coarse-to-fine-Model" class="headerlink" title="Coarse-to-fine  Model"></a>Coarse-to-fine  Model</h3><p><a href="">@ Coarse-to-Fine Question Answering for Long Documents, ACL 2017</a><br><a href="">@ Hierarchical Question Answering for Long Documents, Arxiv 2016</a></p>
+<h4 id="Intuition"><a href="#Intuition" class="headerlink" title="Intuition"></a>Intuition</h4><blockquote>
+<p><strong>long documents</strong> and <strong>low speed</strong></p>
+</blockquote>
+<p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0A;&#x5348;11.07.52.png" alt="Alt text"></p>
+<h4 id="Model"><a href="#Model" class="headerlink" title="Model"></a>Model</h4><h5 id="Sentence-Selection-Methods"><a href="#Sentence-Selection-Methods" class="headerlink" title="Sentence Selection Methods"></a>Sentence Selection Methods</h5><ul>
+<li><p>BoW Model<br><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0A;&#x5348;11.13.28.png" alt="Alt text"></p>
+</li>
+<li><p>Chunked BoW Model</p>
+</li>
+<li>Convolutional Neural Network Model</li>
+</ul>
+<h5 id="Document-Representation"><a href="#Document-Representation" class="headerlink" title="Document Representation"></a>Document Representation</h5><ul>
+<li><p>Hard Attention<br><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0A;&#x5348;11.17.35.png" alt="Alt text"></p>
+</li>
+<li><p>Soft Attention<br><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0A;&#x5348;11.17.49.png" alt="Alt text"></p>
+</li>
+</ul>
+<h5 id="Learning-Methods"><a href="#Learning-Methods" class="headerlink" title="Learning Methods"></a>Learning Methods</h5><ul>
+<li>Distant Learning <blockquote>
+<p>First sentence full matching the answer<br>First sentence of Document if no full match exists</p>
+</blockquote>
+</li>
+</ul>
+<p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0B;&#x5348;2.21.21.png" alt="Alt text"></p>
+<ul>
+<li><p>Reinforcement Learning<br><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0B;&#x5348;2.29.38.png" alt="Alt text"></p>
+</li>
+<li><p>Soft Attention Learning </p>
+</li>
+</ul>
+<h4 id="Result"><a href="#Result" class="headerlink" title="Result"></a>Result</h4><p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-06 &#x4E0B;&#x5348;2.33.01.png" alt="Alt text"></p>
+<h4 id="Discussion"><a href="#Discussion" class="headerlink" title="Discussion"></a>Discussion</h4><p>70%, 10%, 20% </p>
+<h3 id="Sliding-Window-Encoder-Attentive-Reader-SWEAR"><a href="#Sliding-Window-Encoder-Attentive-Reader-SWEAR" class="headerlink" title="Sliding-Window Encoder Attentive Reader (SWEAR)"></a>Sliding-Window Encoder Attentive Reader (SWEAR)</h3><p><a href="">@ Accurate Supervised and Semi-Supervised Machine Reading for Long Documents, EMNLP 2017</a></p>
+<h4 id="Intuition-1"><a href="#Intuition-1" class="headerlink" title="Intuition"></a>Intuition</h4><blockquote>
+<p>Long document, Chunk</p>
+</blockquote>
+<h4 id="Model-1"><a href="#Model-1" class="headerlink" title="Model"></a>Model</h4><p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-07 &#x4E0A;&#x5348;11.06.14.png" alt="Alt text"></p>
+<ul>
+<li>Attention Method<br><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-07 &#x4E0A;&#x5348;11.08.21.png" alt="Alt text"></li>
+</ul>
+<h4 id="Result-1"><a href="#Result-1" class="headerlink" title="Result"></a>Result</h4><p><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-07 &#x4E0A;&#x5348;11.08.53.png" alt="Alt text"><br><img src="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/./&#x5C4F;&#x5E55;&#x5FEB;&#x7167; 2018-03-07 &#x4E0A;&#x5348;11.10.46.png" alt="Alt text"></p>
+<h2 id="Feedback-amp-Advice"><a href="#Feedback-amp-Advice" class="headerlink" title="Feedback&amp;Advice"></a>Feedback&amp;Advice</h2><ul>
+<li>weibo&#xFF1A;<a href="http://weibo.com/u/3165962554/home?wvr=5&amp;lf=reg" target="_blank" rel="noopener">@&#x4F1F;&#x5EB7;&#x9752;&#x5E74;</a>&#xFF0C;<a href="https://waveli123.github.io/" target="_blank" rel="noopener">@github</a></li>
+<li>mail&#xFF1A;<a href="mailto:wavejkd@pku.edu.cn">wavejkd@pku.edu.cn</a></li>
+</ul>
+</div><script type="text/javascript" src="/js/share.js?v=0.0.0" async></script><a data-url="http://yoursite.com/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/" data-id="cjeo0k1ep0019n72bgh903dnb" class="article-share-link">分享到</a><div class="tags"></div><div class="post-nav"><a href="/2017/06/17/Attention-over-Attention Neural Networks for Reading Comprehension/" class="next">Attention-over-Attention Neural Networks for Reading Comprehension</a></div><div data-thread-key="2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/" data-title="" data-url="http://yoursite.com/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/" class="ds-share flat"><div class="ds-share-inline"><ul class="ds-share-icons-16"><li data-toggle="ds-share-icons-more"><a href="javascript:void(0);" class="ds-more">分享到：</a></li><li><a href="javascript:void(0);" data-service="weibo" class="ds-weibo">微博</a></li><li><a href="javascript:void(0);" data-service="qzone" class="ds-qzone">QQ空间</a></li><li><a href="javascript:void(0);" data-service="qqt" class="ds-qqt">腾讯微博</a></li><li><a href="javascript:void(0);" data-service="wechat" class="ds-wechat">微信</a></li></ul><div class="ds-share-icons-more"></div></div></div><div class="post-donate"><div id="donate_board" class="donate_bar center"><a id="btn_donate" href="javascript:;" title="打赏" class="btn_donate"></a><div class="donate_txt"> &uarr;<br>此文有用? 求鼓励!<br></div></div><div id="donate_guide" class="donate_bar center hidden"><img src="http://ww2.sinaimg.cn/small/bcb4c13agw1f7bvfnptyvj20u00xcgp0.jpg" title="微信打赏"></div><script type="text/javascript">document.getElementById('btn_donate').onclick = function(){
+    $('#donate_board').addClass('hidden');
+    $('#donate_guide').removeClass('hidden');
+}</script></div><div data-thread-key="2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/" data-title="" data-url="http://yoursite.com/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/" data-author-key="1" class="ds-thread"></div></div></div></div><div class="pure-u-1 pure-u-md-1-4"><div id="sidebar"><div class="widget"><div class="search-form"><input id="local-search-input" placeholder="Search" type="text" name="q" results="0"/><div id="local-search-result"></div></div></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Paper-Share/">Paper Share</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Technology/">Technology</a><span class="category-list-count">1</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/2016/" style="font-size: 15px;">2016</a> <a href="/tags/arXiv/" style="font-size: 15px;">arXiv</a> <a href="/tags/Long/" style="font-size: 15px;">Long</a> <a href="/tags/ACL/" style="font-size: 15px;">ACL</a> <a href="/tags/SVM/" style="font-size: 15px;">SVM</a> <a href="/tags/Relation-Extraction/" style="font-size: 15px;">Relation Extraction</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/03/12/WikiReading - Review of Literature/WikiReading - Review of Literature/">WikiReading - Review of Literature/WikiReading - Review of Literature</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/17/Attention-over-Attention Neural Networks for Reading Comprehension/">Attention-over-Attention Neural Networks for Reading Comprehension</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/17/Combining Natural Logic and Shallow Reasoning for Question Answering/">Combining Natural Logic and Shallow Reasoning for Question Answering</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/17/Debug心得/">Debug心得</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/17/Gated-Attention Readers for Text Comprehension/">Gated-Attention Readers for Text Comprehension</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/17/BUI学习资料/">BUI学习资料</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/17/Webx知道tips/">webx知道</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/17/总结-基于新浪财经数据的关系抽取的多分类模型构建/">总结-基于新浪财经数据的关系抽取的多分类模型构建</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/17/ibatis/">ibatis</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/17/Improved Representation Learning for Question Answer Matching/">Improved Representation Learning for Question Answer Matching</a></li></ul></div><div class="widget"><div class="comments-title"><i class="fa fa-comment-o"> 最近评论</i></div><div data-num-items="5" data-show-avatars="0" data-show-time="1" data-show-admin="0" data-excerpt-length="32" data-show-title="1" class="ds-recent-comments"></div></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.qq.com/404/" title="腾讯公益404" target="_blank">腾讯公益404</a><ul></ul><a href="http://waveli123.github.io/" title="我的博客" target="_blank">我的博客</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">© <a href="/." rel="nofollow">大道至简--博客记.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a id="rocket" href="#top" class="show"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css?v=0.0.0"><script>var duoshuoQuery = {short_name:'true'};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+        || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script><script type="text/javascript" src="/js/search.js?v=0.0.0"></script><script>var search_path = 'search.xml';
+if (search_path.length == 0) {
+   search_path = 'search.xml';
+}
+var path = '/' + search_path;
+searchFunc(path, 'local-search-input', 'local-search-result');
+</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?true";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+  })();
+</script><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
